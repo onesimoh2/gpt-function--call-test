@@ -1,7 +1,6 @@
 
 # Creating a function to process Python code and run it with GPT4 generated scripts.
 
-In the article ‘Are transformers effective for Time Series? (Are Transformers Effective for Time Series Forecasting? (arxiv.org) the authors argues the superiority of other methods over transformer. Nevertheless given the lately success of transformers in producing GPT4 I decided to try it again. 
 
 Using the calling function functionality provided in gpt-4-0613 to test the viability to obtain precise answer to queries containing some kind of computation. Although GPT-4 do a decent job computing data it is not always reliable, the idea was to let GPT detect when it requires to compute some functions and generate a Python script for that. That script will be then executed, and the result will be injected again into GPT to get the correct answer. 
 
